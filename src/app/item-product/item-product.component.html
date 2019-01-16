@@ -1,0 +1,27 @@
+<!-- <div class="col-xs-6 col-sm-3 product-item text-center"> -->
+  <div class="product-item-wrap relative">
+    <div class="product-status">
+        <img class="img-responsive" src="{{actualIcon}}" [style.width] = 260 [style.height] = 300>
+    </div>	
+    <div class="product-image relative">
+        <a href="{{urlProduct}}">
+              <img class="img-responsive img-product" alt="{{productName}}" src="{{urlImageProduct}}">
+        </a>	
+        <div class="add-cart">
+            <a href="{{urlProduct}}" rel="nofollow" 
+                data-product_id="2738" 
+                data-product_sku="" 
+                data-quantity="1" 
+                class="button add_to_cart_button product_type_variable">
+                <i class="fa fa-shopping-cart"></i>Mua hàng
+            </a>											
+        </div>				
+    </div>
+    <div class="product-infomation">
+        <h2><a href="{{urlProduct}}">{{productName}}</a></h2>
+        <div class="product-price">
+            <span class="amount">{{price | currency:'VND':false}}</span>	
+        </div>
+    </div>
+  </div>							
+<!-- </div> -->
